@@ -978,7 +978,7 @@ index 061cbdf860..45c01fa53d 100644
 +        Error *local_err = NULL;
 +        if (load_snapshot_from_blockdev(loadstate, &local_err) < 0) {
 +            error_report_err(local_err);
-+            autostart = 0;
++            exit(1);
 +        }
      }
      if (replay_mode != REPLAY_MODE_NONE) {
