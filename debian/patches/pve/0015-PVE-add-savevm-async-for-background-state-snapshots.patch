@@ -959,7 +959,7 @@ index 34970fffc9..dcc9ab6bf4 100644
  DEF("daemonize", 0, QEMU_OPTION_daemonize, \
      "-daemonize      daemonize QEMU after initializing\n", QEMU_ARCH_ALL)
 diff --git a/system/vl.c b/system/vl.c
-index 061cbdf860..45c01fa53d 100644
+index 061cbdf860..ab9ac07583 100644
 --- a/system/vl.c
 +++ b/system/vl.c
 @@ -176,6 +176,7 @@ static const char *accelerators;

@@ -71,7 +71,7 @@ index 63536462bd..d17f841a5a 100644
                                 'features': ['unstable'] } } }
  
 diff --git a/system/vl.c b/system/vl.c
-index 6994dcc9f0..5a9ac766ce 100644
+index 62b653242e..d55493eb35 100644
 --- a/system/vl.c
 +++ b/system/vl.c
 @@ -1683,6 +1683,7 @@ static MachineClass *select_machine(QDict *qdict, Error **errp)

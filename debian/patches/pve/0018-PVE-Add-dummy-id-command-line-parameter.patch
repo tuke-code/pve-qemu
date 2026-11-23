@@ -28,7 +28,7 @@ index dcc9ab6bf4..7dda9be8e4 100644
      "-fda/-fdb file  use 'file' as floppy disk 0/1 image\n", QEMU_ARCH_ALL)
  DEF("fdb", HAS_ARG, QEMU_OPTION_fdb, "", QEMU_ARCH_ALL)
 diff --git a/system/vl.c b/system/vl.c
-index 45c01fa53d..6994dcc9f0 100644
+index ab9ac07583..62b653242e 100644
 --- a/system/vl.c
 +++ b/system/vl.c
 @@ -2867,6 +2867,7 @@ void qemu_init(int argc, char **argv)
